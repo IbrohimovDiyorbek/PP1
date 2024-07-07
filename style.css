@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .wrapper {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .int {
+        width: 250px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 8px;
+        border: gainsboro solid 1px;
+        margin-top: 30px;
+    }
+
+    .int2 {
+        width: 195px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 8px;
+        border: gainsboro solid 1px;
+        margin-top: 30px;
+    }
+
+    #tel {
+        width: 50px;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    .but {
+        width: 250px;
+        height: 30px;
+        border-radius: 8px;
+        margin-top: 30px;
+        background: greenyellow;
+        border: greenyellow;
+        color: white;
+    }
+
+
+}
+
+
