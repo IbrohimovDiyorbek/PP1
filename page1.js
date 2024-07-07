@@ -14,7 +14,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     const userInfo = `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Age:</strong> ${age}</p>
-        <p><strong>Ring number:</strong> ${phone}</p>
+        <p><strong>Ring ID:</strong> ${phone}</p>
         <p><strong>Gender:</strong> ${gender}</p>
     `;
 
