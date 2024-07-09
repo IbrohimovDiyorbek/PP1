@@ -1,4 +1,22 @@
 document.getElementById('showFormBtn').addEventListener('click', function() {
+    document.getElementById('formWrapper').style.display = 'block';
+    this.style.display = 'none';
+});
+
+document.getElementById('userform').addEventListener('submit', function(even) {
+    even.preventDefault();
+
+    const bird = document.getElementById('bird').value;
+
+    const userinfo = `
+        <p><strong>Choose your birds:</strong> ${bird}</p>
+    `;
+
+    document.getElementById('userinfo').innerHTML = userinfo;
+    document.getElementById('userform').reset();
+});
+
+document.getElementById('submit1').addEventListener('click', function() {
     document.getElementById('formContainer').style.display = 'block';
     this.style.display = 'none';
 });

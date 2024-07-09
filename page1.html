@@ -8,6 +8,23 @@
 </head>
 <body>
     <button id="showFormBtn">+</button>
+
+    <div id="formWrapper" style="display: none;">
+        <form id="userform">
+            
+            <label for="birds">Choose your birds:</label>
+            <select id="bird" name="birds" required>
+                <option value="">Select</option>
+                <option value="Parrot">Parrot</option>
+                <option value="Canary">Canary</option>
+                <option value="Pagion">Pegion</option>
+                <option value="Wild birds">Wild birds</option>
+            </select>
+            
+            <button id="submit1" type="submit">submit</button>
+        </form>
+        <div id="userinfo"></div>
+    </div>
     <div id="formContainer" style="display: none;">
         <form id="userForm">
             <label for="avary">Bird Aviary:</label>
